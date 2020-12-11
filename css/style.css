@@ -1,0 +1,286 @@
+*{
+    margin:0;
+}
+.container{
+    width:100%;
+    margin: auto;
+}
+nav{
+    
+    
+    padding:40px;
+    padding-bottom: 50px;
+    
+  
+}
+.logo-image
+{
+    float: left;
+    width:60px;
+    margin-bottom: 30px;
+   margin-right: 10px;
+   margin-top:-20px;
+}
+.logoh1{
+    float: left;
+    font-size:25px ;
+}
+
+.navul{
+    float:right;
+    display: inline-block;
+   
+
+}
+.navul li{
+display: inline;
+margin-left: 30px;
+}
+.navul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;  
+}
+.navul li a:hover{
+   color:white;
+   background-color: teal;
+  
+}
+/* -----------landing page ------------- */
+.landing-container{
+  background-image: url('https://wallpapercave.com/wp/wp2825437.jpg');
+  background-size: cover;
+  background-position-y:-200px ;
+  
+
+}
+.landing-container-shadow{
+    height: 85.5vh;
+    text-align: center;
+    background-color: rgba(185, 176, 176, 0.3);
+}
+.landing-header-1{
+    color:white;
+    font-size: 80px;
+    padding-top: 80px;
+    font-weight: 10;
+}
+.landing-header-1-span{
+    font-weight: 900;
+}
+.landing-header-2{
+    font-size: 25px;
+    color: white;
+    padding:70px 0;
+}
+.landing-btn{
+    background-color: teal;
+    padding:15px;
+    color:white;
+    font-size: 20px;
+    border: none;
+}
+.landing-arrow{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+    margin:40px  auto;
+}
+.fas{
+    font-size: 40px;
+    margin: auto;
+    margin-top: 5px;
+
+
+}
+.portfolio-container{
+    height: 110vh;
+    background-color: whiet;
+}
+.portfolio{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.portfolio-header{
+    padding-top: 60px ;
+   font-size: 30px;
+}
+.portfolio-title{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.portfolio button{
+    margin-left:20px;
+    width: auto;
+    color: white;
+    background-color: teal;
+    border: none;
+    padding:5px 20px;
+    font-size: 15px;
+}
+
+.portfolio-icons{
+    width: 90%;
+    
+    height: 60vh;
+    margin: auto;
+    
+}
+.portfolio-icons div{ 
+
+float: left;
+width:33.3%;
+height:25vh;
+margin: 20px 0px;
+
+
+
+}
+.circle{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightsalmon;
+}
+/* -------------------------------------- */
+.aboutus-container{
+    background-color: teal;
+    text-align: center;
+    height: 100vh;
+}
+.aboutus-container .header{
+    color:white;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.aboutus-container .title{
+    color:white;
+    font-size:20px ;
+    padding: 20px;
+    padding-bottom: 40px;
+
+}
+.aboutus-divs-container{
+    width: 90%;
+  
+    height: 60vh;
+    margin: auto;
+}
+.aboutus-divs-container div{
+    float: left;
+    width:20%;
+    background-color: white;
+    margin-left: 120px;
+    height: 400px;
+    
+   
+}
+.aboutus-divs-container div img{
+    width: 100%;
+    height: 200px;
+   
+}
+.aboutus-divs-container div .name{
+font-size:25px;
+padding-top: 20px;
+}
+ .aboutus-title{
+     padding-top: 10px;
+    padding-bottom: 20px;
+}
+.discription{
+    text-align: left;
+    margin: 10px;
+}
+/* ============================ */
+.contactus-container{
+    height: 100vh;
+   
+    background-color: rgb(243, 243, 243);
+}
+.contactus-header{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+.contactus-title{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.left{
+width: 50%;
+float: left;
+
+height: 457px;
+}
+.right{
+width:50%;
+float: right;
+
+height: 457px;
+}
+.left input{
+    height: 50px;
+    margin:20px;
+    width:40%;
+    border: none;
+    font-size: 20px;
+}
+.left input::placeholder{
+   padding-left: 10px;
+}
+
+form{
+    padding-top: 50px;
+}
+textarea{
+    width: 88%;
+    margin: 20px;
+    height: 175px;
+    font-size: 20px;
+}
+textarea::placeholder{
+    padding-left:10px;
+}
+.right-container{
+    margin-left: 50px;
+    width: 80%;
+    
+}
+.info-title{
+    padding-top:60px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+i{
+    margin-right: 30px;
+    font-size: smaller;
+    
+    
+}
+.adress{
+    display: inline;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin-left: 20px;
+    
+}
+.submit-btn
+{
+    float: right;
+    margin-right:50px ;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    background-color: teal;
+    border: none;
+    width:150px
+}
